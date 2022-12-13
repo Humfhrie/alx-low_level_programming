@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  * main - Returns a combination of number.
- * Returrn: rturn 0 if successful
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
