@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_array -  function that prints n elements of an array of integers, followed by a new line.
- * 
+ * print_array - prints n element of an array of integers
+ * Owned by Bwave
  * @a: int to check
  * @n: int to check
  * Return: 0 is success
