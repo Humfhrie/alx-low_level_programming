@@ -5,27 +5,26 @@
  * _strncat - function that concatenates two strings.
  * @dest: first paaramter, that concatenates two strings.
  * @src: second parameter
-<<<<<<< HEAD
- * Return: A string
- */
-char *_strncat(char *dest, char *src, int n)
-{
-	int len = 0, i;
-
-	while (dest[len])
-		len++
-	for (i = 0; src[i] != 0; i++)
-	{
-		dest[len] = src[i];
-		len += 1;
-	}
-	dest[len] = '\0';
-=======
  * Return: a string
  */
-char *_strncat(char *dest, char *src, int n)
+
+char *_strcat(char *dest, char *src)
 {
-	strcat(dest, src);
->>>>>>> 23dcde87632b32b085de986114750a0289a5d851
+	int i;
+	int j;
+
+	i = 0;
+	while (dest[i] != '\0')
+	{
+		i++;
+	}
+	j = 0;
+	while (src[j] != '\0')
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
+	dest[i] '\0';
 	return (dest);
 }
