@@ -1,1 +1,1 @@
-the repository on C language
+alx-low_level_programming
